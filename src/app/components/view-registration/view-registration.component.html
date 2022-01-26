@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <a class="btn btn=primary" routerLink="/admin">Back to List</a>
+  </div>
+</div>
+
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">Price Details Of Product For Next Three Days</h3>
+            <div class="row">
+                <div class="col-lg-7 col-md-7 col-sm-6">
+                    <h1>{{pricesDays}}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="form-group container">
+  <label>REQUEST DATE</label>
+  <input type="text" [(ngModel)]="today" bsDatepicker class="form-control"  />
+  <br>
+<button type="submit" class="btn btn-primary" (click)="onSubmit()">Submit</button>
+
+<h2> {{priceData}}</h2>
+</div>
+
+
