@@ -1,27 +1,23 @@
-# TvseriesUi
+# ProductsUi
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+Created an Angular application which have the following functionalities
+
+Uploading the excel sheet to save excel data in db.
+
+Displays all the price history records in a tabular format.
+
+Display product detail page which has next three days prices when clicking any record.
+
+Allows user to enter the requested date for fetching the price, name, interest rate of a particular product in product detail page.
+
+Run `npm install` after cloning to install all the required dependencies for the application.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` or `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Site Preview:
+https://github.com/yatheesh-sai-kalimili/products-ui/issues/1#issue-1115351468
