@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { AdminComponent } from './components/admin/admin.component';
-import { HomeComponent } from './components/home/home.component';
+import { ExcelComponent } from './components/excelupload/excel.component';
 import { ViewRegistrationComponent } from './components/view-registration/view-registration.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -17,7 +17,7 @@ import {MatTableModule} from '@angular/material/table';
   declarations: [
     AppComponent,
     AdminComponent,
-    HomeComponent,
+    ExcelComponent,
     ViewRegistrationComponent,
     NavbarComponent
   ],

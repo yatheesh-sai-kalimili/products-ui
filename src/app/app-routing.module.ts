@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AdminComponent  } from "./components/admin/admin.component";
-import { HomeComponent  } from "./components/home/home.component";
+import { ExcelComponent  } from "./components/excelupload/excel.component";
 import { ViewRegistrationComponent } from "./components/view-registration/view-registration.component";
 
 
@@ -19,7 +19,7 @@ const routes: Routes = [{
 },
 {
   path:'form',
-  component: HomeComponent
+  component: ExcelComponent
 }];
 
 @NgModule({
