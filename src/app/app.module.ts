@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { AdminComponent } from './components/admin/admin.component';
 import { ExcelComponent } from './components/excelupload/excel.component';
-import { ViewRegistrationComponent } from './components/view-registration/view-registration.component';
+import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { NavbarComponent } from './components/nav/navbar.component';
@@ -18,7 +18,7 @@ import {MatTableModule} from '@angular/material/table';
     AppComponent,
     AdminComponent,
     ExcelComponent,
-    ViewRegistrationComponent,
+    ProductDetailComponent,
     NavbarComponent
   ],
   imports: [

@@ -5,11 +5,11 @@ import { tap } from 'rxjs/operators';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Component({
-  selector: 'app-view-registration',
-  templateUrl: './view-registration.component.html',
-  styleUrls: ['./view-registration.component.css']
+  selector: 'app-product-detail',
+  templateUrl: './product-detail.component.html',
+  styleUrls: ['./product-detail.component.css']
 })
-export class ViewRegistrationComponent implements OnInit {
+export class ProductDetailComponent implements OnInit {
  public pricesDays ;
  public today:any;
  public id:any;
